@@ -1,0 +1,6 @@
+﻿Type,Database,Use
+Land use maps,"CoCT’s Open Data portal; Environment Department, protected area layer (SAPAD Q4); OpenStreetMap; and USGS Digital Elevation Model",Exogenous amenity covariates for amenity index calibration
+Data on main employment centres,CoCT’s EMME/2 model (2013) for number of jobs per income group,Variable used for income calibration
+Rents/real estate prices,CoCT’s housing sales registry,Variable used for housing production function calibration
+Origin-Destination statistics about inhabitants’ residence and workplace,CoCT’s EMME/2 model (2013),Target commuter distribution in income calibration
+Dwelling sizes,CoCT,Variable used in housing production function calibration

@@ -1,0 +1,13 @@
+﻿Type,Database,Use
+Spatial distribution of population by income group and housing type,National censuses (2001 & 2011),Target population to be reached by algorithm + variable used in calibration
+Land use maps,"CoCT’s cadastre (Single Residential 2 - Incremental Housing), and 2011 Census (Enumerator Area) for RDP and informal",Land availability for initial state equilibrium + housing production function calibration
+Land use maps,"Housing Pipeline, Integrated Human Settlement Framework (2013) for RDP scenario, and Informal settlement risks",Land availability for future simulations
+Transport times for each transport mode and job location,CoCT’s EMME/2 model (2013) for times (and distances),Variable used to compute income net of commuting costs
+Global flood maps,Fathom for fluvial (defended and undefended) and pluvial flood risks,Maximum flood depth + flood-prone areas for flood damages
+Global flood maps,Deltares for coastal flood risks (with and without sea-level rise),Maximum flood depth + flood-prone areas for flood damages
+Flood depth-damage estimates,Englhardt et al. (2019) for building structure estimates,Damage function used to compute flooded capital depreciation rate
+Flood depth-damage estimates,de Villiers et al. (2007) for building content estimates,Damage function used to compute flooded capital depreciation rate
+Long term interest rate for mortgage or equivalent,"World Bank, World Development Indicator database (2016)",Parameter used when solving equilibrium
+Cost of private transport,Energy South Africa (2016) for fuel prices,Variable used to compute income net of commuting costs
+Cost of private transport,Merven et al. (2012) for vehicle energy efficiency,Variable used to compute income net of commuting costs
+Public transport price,Roux (2013),Variable used to compute income net of commuting costs

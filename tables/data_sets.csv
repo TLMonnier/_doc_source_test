@@ -1,0 +1,40 @@
+﻿Folder,Name,Unit,Description
+precalculated_inputs,calibratedAmenities,Pixel,Amenity index: follows calibration from Pfeiffer et al. (appendix C4)
+precalculated_inputs,calibratedHousing_b,Parameter,"Housing production function parameter, as calibrated in Pfeiffer et al. (table C7): capital elasticity"
+precalculated_inputs,calibratedHousing_kappa,Parameter,"Housing production function parameter, as calibrated in Pfeiffer et al. (table C7): scale parameter"
+precalculated_inputs,calibratedUtility_beta,Parameter,"Utility function parameter, as calibrated in Pfeiffer et al. (table C7): surplus housing elasticity"
+precalculated_inputs,calibratedUtility_q0,Parameter,"Utility function parameter, as calibrated in Pfeiffer et al. (table C7): basic need in housing"
+precalculated_inputs,data,/,"Matlab structure containing various household data, essentially at the SP level"
+precalculated_inputs,incomeCentersKeep,TAZ (2013),"Calibrated incomes per income group and job center (see Pfeiffer et al., appendix C3)"
+precalculated_inputs,lambdaKeep,Parameter,"Gravity parameter of the minimum Gumbel distribution (see Pfeiffer et al.), as calibrated in appendix C3"
+precalculated_inputs,Transport_times_GRID,Pixel,Transport times for a round trip with several transportation modes between all grid cells
+precalculated_inputs,Transport_times_SP,SP (2011),Transport times for a round trip with several transportation modes between all census blocks
+data_Cape_Town,TAZ_ampp_prod_attr_2013_2032,TAZ (2013),"Geographic data at the transport zone level, used to map employment data"
+data_Cape_Town,grid_reference_500,Pixel,"Geographic data at the grid cell level, used to map model outputs"
+./Scenarios,Scenario_inc_distrib_1,Scenario,Lower inequality: income of groups 3 and 4 decrease by 10% relatively to groups 1 and 2
+./Scenarios,Scenario_inc_distrib_2,Scenario,Reference scenario: income distribution remains the same as in 2011
+./Scenarios,Scenario_inc_distrib_3,Scenario,Higher inequality: income of groups 3 and 4 increase by 10% relatively to group 1 and 2
+./Scenarios,Scenario_inflation_1,Scenario,Reference scenario
+./Scenarios,Scenario_interest_rate_1,Scenario,Reference scenario: interest rate constant after 2014
+./Scenarios,Scenario_pop_1,Scenario,Low growth: population in 2040 is 10% lower than reference scenario
+./Scenarios,Scenario_pop_2,Scenario,Reference scenario
+./Scenarios,Scenario_pop_3,Scenario,High growth: population in 2040 is 10% higher than reference scenario
+./Scenarios,Scenario_pop_20201209,Scenario,High growth: population in 2040 is 10% higher than reference scenario (alternative specification)
+./Scenarios,Scenario_price_fuel_1,Scenario,Reference scenario: price of fuel increases with inflation
+data_Cape_Town,grid_NEDUM_Cape_Town_500,Pixel,Standard geographic data on CoCT's grid used in model
+data_Cape_Town,grid_new_RDP_projects,Pixel,Scenarios for formal subsidized housing construction: used to define land availability
+data_Cape_Town,grid_SAL_intersect,Pixel & SAL,Correspondance table between Small Areas and grid cells
+data_Cape_Town,grid_SP_intersect,Pixel & SP (2011),Correspondance table between Small Places and grid cells
+data_Cape_Town,grid_amenities,Pixel (2011),Exogenous amenities at grid cell level
+data_Cape_Town,SP_amenities,SP (2011),Exogenous amenities at SP level
+data_Cape_Town,Income_distribution_2011,Parameter,Income distribution inputs into the model
+data_Cape_Town,TAZ_amp_2013_proj_centro2,TAZ (2013),"Employment data at the Transport Zone level, used in calibration"
+flood_maps,…,Pixel,"Flood depth hazard and share of flood-prone areas for fluvial undefended (FU), fluvial defended (FD), pluvial (P), and coastal (C) floods"
+data_Cape_Town,inf_dwellings_2020,Pixel,"Number of informal dwellings in 2020, used to define land availability"
+occupation_maps,informal_settlements_risk,Pixel,Areas at risk of new informal settlements (9 scenarios)
+occupation_maps,polygon_medium_timing,Pixel,"Semi-agricultural land (Philippi neighbourhood), whose squatting risk can be changed to model push-back from farmers"
+precalculated_transport,[dim]_incomeNetOfCommuting_[year],Pixel & SP (2011),"Income net of commuting costs for each income bracket in model, as calibrated in Pfeiffer et al. (see part 3.1 or appendix C3), simulated over 30 years"
+/root,housing_types_grid_sal,Pixel,"Population density per housing type, used for validation"
+/root,housing_types_sal_analysis,/,SAL data that shows the breakdown across multiple housing categories and from which we recover aggregate population values
+Aux data,HH-budget-floods,/,"Breakdown of representative household budget in main districts, from which we deduce the fraction of composite good at risk of destruction from floods"
+Aux data,Transport-costs,/,"Regression data that define fixed and variable components of various public transportation modes (based on Roux, 2013)"
